@@ -1,0 +1,67 @@
+
+html {
+  font-size: 10px;
+}
+
+.toggle-label {
+  margin: 20vh auto;
+  position: relative;
+  display: block;
+  width: fit-content;
+  height: 6rem;
+}
+
+.toggle-inner {
+  position: relative;
+  border: 2.5px solid #D5D5D5;
+  width: 15rem;
+  height: 70%;
+  border-radius: 2rem;
+  background-color: #EBEBEB;
+}
+
+.toggle-inner::after {
+  position: absolute;
+  content: "No";
+  color: #C3C3C3;
+  top: 20%;
+  left: 60%;
+  font-size: 2.3rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.toggle-switch {
+  position: absolute;
+  top: 0;
+  border: 2.5px solid #D5D5D5;
+  background-color: white;
+  width: 6rem;
+  height: 6rem;
+  transform: translateY(-15%);
+  border-radius: 50%;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + .toggle-label > .toggle-switch {
+  left: 60%;
+}
+
+input[type="checkbox"]:checked + .toggle-label > .toggle-inner {
+  background-color: #E1013C;
+}
+
+input[type="checkbox"]:checked + .toggle-label > .toggle-inner::after {
+  position: absolute;
+  content: "Yes";
+  color: #FFFFFF;
+  top: 20%;
+  left: 15%;
+  font-size: 2.3rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
