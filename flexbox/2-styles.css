@@ -368,6 +368,12 @@
     padding: 10rem 40rem 2rem 0;
   }
 
+  /* Section Latest news =================================*/
+
+  .section-latest-news .row {
+    flex-direction: row-reverse;
+  }
+
   /*** 4. CARD ***/
 
 
@@ -495,10 +501,4 @@
     color: #efeded;
     font-size: 10rem;
     z-index: -1;
-  }
-
-  /* Section Latest news =================================*/
-
-  .section-latest-news .row {
-    flex-direction: row-reverse;
   }
