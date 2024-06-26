@@ -375,14 +375,13 @@
     flex-direction: row-reverse;
   }
 
-  /* Section SERVICES ============================= */
+  /* Section SERVICES ================================ */
   .section-services .row {
     display: flex;
     flex-wrap: wrap;
   }
 
   /*** 4. CARD ***/
-
 
   /* Card (all styles)
   ============================= */
