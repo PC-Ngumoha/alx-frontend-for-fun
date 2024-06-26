@@ -370,14 +370,9 @@
 
   /*** 4. CARD ***/
 
-  /* Section Latest news =================================*/
-
-  .section-latest-news .row {
-    flex-direction: row-reverse;
-  }
 
   /* Card (all styles)
-      ============================= */
+  ============================= */
 
   .card-category {
     color: var(--color-primary);
@@ -449,7 +444,7 @@
   }
 
   /* Card SERVICES
-      ============================= */
+  ============================= */
 
   .card-services .card-title {
     margin: 0;
@@ -470,7 +465,7 @@
   }
 
   /* Card TESTIMONIAL
-      ============================= */
+  ============================= */
 
   .card-testimonial {
     text-align: center;
@@ -500,4 +495,10 @@
     color: #efeded;
     font-size: 10rem;
     z-index: -1;
+  }
+
+  /* Section Latest news =================================*/
+
+  .section-latest-news .row {
+    flex-direction: row-reverse;
   }
