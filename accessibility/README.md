@@ -6,3 +6,5 @@
 - [WAI-ARIA / WCAG specifications](https://www.w3.org/TR/wai-aria/)
 
 - [How to meet WCAG - Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.1)
+
+- [More transparent CSS code using namespaces](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
